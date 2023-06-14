@@ -136,6 +136,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
    libstdc++_vendor
 
+# Google Camera
+$(call inherit-product-if-exists, vendor/mgc/config.mk)
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend
