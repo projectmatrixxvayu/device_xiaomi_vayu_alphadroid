@@ -145,7 +145,8 @@ $(call inherit-product-if-exists, vendor/mgc/config.mk)
 
 # Charger
 PRODUCT_PACKAGES += \
-    libsuspend
+    libsuspend \
+    charger_res_images
 
 # Config Store
 PRODUCT_PACKAGES += \
