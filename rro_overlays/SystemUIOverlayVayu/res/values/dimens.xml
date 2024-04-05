@@ -16,9 +16,6 @@
 */
 -->
 <resources>
-    <!-- navigation bar side padding -->
-    <dimen name="navigation_side_padding">85.0dip</dimen>
-
     <!-- the padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">17dp</dimen>
 
