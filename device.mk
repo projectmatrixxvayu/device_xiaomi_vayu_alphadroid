@@ -37,6 +37,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 $(call inherit-product-if-exists, vendor/dolby/dolby.mk)
 
 
+# Inherit from release keys
+$(call inherit-product, vendor/extra/product.mk)
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
