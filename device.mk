@@ -36,9 +36,8 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Dolby
 $(call inherit-product-if-exists, vendor/dolby/dolby.mk)
 
-
-# Inherit from release keys
-$(call inherit-product-if-exists, vendor/extra/product.mk)
+# Signing Rom with test keys
+include vendor/lineage-priv/keys/keys.mk
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -284,6 +283,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.base@1.0.vendor \
+    libhidltransport \
     libhwbinder.vendor
 
 # HotwordEnrollement
