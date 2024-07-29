@@ -123,6 +123,10 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|23706dcfa35cc6f7dee934e138
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|ece3dafc4447e8302109851c3a6b0d3978b3506d
 
 # Camera
+lib64/libcamera_algoup_jni.xiaomi.so
+lib64/libcamera_mianode_jni.xiaomi.so
+lib64/libmicampostproc_client.so
+lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 vendor/lib64/camera/com.qti.sensor.hi259_vayu.so
 vendor/lib64/camera/com.qti.sensor.imx582_vayu.so
 vendor/lib64/camera/com.qti.sensor.ov02b1b_vayu.so
