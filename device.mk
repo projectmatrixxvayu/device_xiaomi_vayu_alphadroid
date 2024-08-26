@@ -128,7 +128,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 PRODUCT_PACKAGES += \
-    libshim_megvii \
     libpiex_shim
 
 PRODUCT_COPY_FILES += \
@@ -139,9 +138,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
    libstdc++_vendor
-
-# Google Camera
-$(call inherit-product-if-exists, vendor/mgc/config.mk)
 
 # Charger
 PRODUCT_PACKAGES += \
